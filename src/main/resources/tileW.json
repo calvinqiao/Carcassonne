@@ -1,0 +1,32 @@
+{
+  "tileType": "W",
+  "numTiles": 4,
+  "numSegments": 4,
+  "segments":
+  [
+    {
+      "segmentType": "roadSegment",
+      "borders": [
+        "W"
+      ]
+    },
+    {
+      "segmentType": "roadSegment",
+      "borders": [
+        "S"
+      ]
+    },
+    {
+      "segmentType": "roadSegment",
+      "borders": [
+        "E"
+      ]
+    },
+    {
+      "segmentType": "fieldSegment",
+      "borders": [
+        "N"
+      ]
+    }
+  ]
+}

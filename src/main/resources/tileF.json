@@ -1,0 +1,23 @@
+{
+  "tileType": "F",
+  "numTiles": 2,
+  "numSegments": 2,
+  "segments":
+  [
+    {
+      "segmentType": "fieldSegment",
+      "borders": [
+        "N",
+        "S"
+      ]
+    },
+    {
+      "segmentType": "citySegment",
+      "borders": [
+        "W",
+        "E"
+      ],
+      "arms": true
+    }
+  ]
+}
