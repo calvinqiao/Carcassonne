@@ -1,0 +1,37 @@
+How to play the game?
+
+1. Method one: maually construct a game
+- Create a board 
+  Board board = new Board();
+
+- Create a deck
+  Deck deck = new Deck();
+  deck.generateTileDeck();
+  deck.shuffle();
+
+- Create a tile
+  - Load a tile
+    Tile tile = new Tile("src/main/resources/tileA.json");
+  - Or draw a tile from deck
+    deck.drawTile();
+
+- Create a player
+  Player newPlayer = new Player(board, "player name");
+
+- Place a tile
+  tilePosition = new PositionOnBoard();
+  tilePosition.setX(10); tilePosition.setY(9); tile.setTilePosition(tilePosition);
+  board.placeTile(tile, 0);  // The second argument is the rotation degree angle, which is from 0 to 360.
+
+- Place meeples
+  board.PlaceMeeples(Player, int: number of meeples, Segment: tile segment to place the meeples);
+
+- Update players' scores
+  board.updatePlayerScores(boolean: isGameOver);
+
+
+2. Method two: simulate a game with two players and comppletely random tile placement
+- Use GameManager
+  GameManager gameManager = new GameManager();
+  gameManager.startGame();
+  
