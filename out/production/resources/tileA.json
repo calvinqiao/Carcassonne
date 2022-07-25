@@ -1,0 +1,26 @@
+{
+  "tileType": "A",
+  "numTiles": 2,
+  "numSegments": 3,
+  "segments":
+  [ {
+      "segmentType": "fieldSegment",
+      "borders": [
+            "N",
+            "W",
+            "E"
+          ]
+    },
+    {
+      "segmentType":"monasterySegment",
+      "borders":     [
+          ]
+    },
+    {
+      "segmentType":"roadSegment",
+      "borders":    [
+            "S"
+          ]
+    }
+    ]
+}

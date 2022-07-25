@@ -1,0 +1,18 @@
+{
+  "tileType": "B",
+  "numTiles": 1,
+  "numSegments": 1,
+  "segments":
+  [
+    {
+      "segmentType": "citySegment",
+      "borders": [
+        "N",
+        "S",
+        "W",
+        "E"
+      ],
+      "arms": true
+  }
+  ]
+}

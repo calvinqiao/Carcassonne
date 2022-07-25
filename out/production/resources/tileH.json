@@ -1,0 +1,29 @@
+{
+  "tileType": "H",
+  "numTiles": 3,
+  "numSegments": 3,
+  "segments":
+  [
+    {
+      "segmentType": "fieldSegment",
+      "borders": [
+        "N",
+        "S"
+      ]
+    },
+    {
+      "segmentType": "citySegment",
+      "borders": [
+        "W"
+      ],
+      "arms": false
+    },
+    {
+      "segmentType": "citySegment",
+      "borders": [
+        "E"
+      ],
+      "arms": false
+    }
+  ]
+}

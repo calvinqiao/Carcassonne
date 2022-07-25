@@ -1,0 +1,27 @@
+{
+  "tileType": "U",
+  "numTiles": 8,
+  "numSegments": 3,
+  "segments":
+  [
+    {
+      "segmentType": "roadSegment",
+      "borders": [
+        "S",
+        "N"
+      ]
+    },
+    {
+      "segmentType": "fieldSegment",
+      "borders": [
+        "W"
+      ]
+    },
+    {
+      "segmentType": "fieldSegment",
+      "borders": [
+        "E"
+      ]
+    }
+  ]
+}
