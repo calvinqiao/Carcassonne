@@ -31,7 +31,7 @@ How to play the game?
 
 
 
-2. Method two: simulate a game with two players and comppletely random tile placement
+2. Method two: simulate a game with two players and completely random tile placement
 - Use GameManager
   GameManager gameManager = new GameManager();
   gameManager.startGame();
